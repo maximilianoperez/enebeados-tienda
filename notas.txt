@@ -1,0 +1,13 @@
+
+
+---La idea general es crear un simulador de una tienda de zapatillas y camisetas de NBA--- 
+
+
+*Diseñar sitio de acuerdo al proyecto del curso anterior enebeados-vf 
+*Intentar escribir el codigo lo mas prolijo posible
+*Intentar usar ES6 para la creacion de objetos
+
+
+09/12 
+*Intentar utilizar ARRAY de forma mas funcional 
+*Intentar aplicar JSON 

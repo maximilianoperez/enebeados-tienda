@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.body{
+	background-color: #f6f5f5;
+}
+
+.header{
+	background-color: #f6f5f5;
+	text-align: center;
+}
+.h1-header{
+	font-size: 80px;
+	font-family: "Anton", sans-serif;
+}
+.logo-header{
+	height: 150px;
+}
+.h2-header{
+	text-transform: capitalize;
+	font-size: 60px;
+	font-family: "Anton", sans-serif;
+}
+
+.container-fluid{
+  	background-color: #145374;
+  	margin: 0;
+  	padding: 0;
+ }
+ .nav{
+ 	display: block;
+ }
+.container-fluid .ul-nav{
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-left: auto;
+    margin-bottom: 0;
+}
+.container-fluid .li-nav{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    border: 3px solid #0097A7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.container-fluid .li-nav:hover{
+    background-color: #B2EBF2;
+    animation: pulse;
+    animation-duration: 5s;
+}
+.container-fluid .a-nav{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.container-fluid .a-nav:hover{
+    color: #212121;
+    animation: pulse;
+    animation-duration: 5s;
+}
+/*Body-Header-Nav*/
+
+.parallax-tienda{
+  	height: 800px;
+  	background-image: url("../img/parallax-tienda.gif");
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+/*Efecto-Parallax*/
+
+.footer {
+  	widows: 100%;
+ 	height: auto;
+  	background-color: #145374;
+  	font-family: "Montserrat", sans-serif;
+  	font-size: 30px;
+  	text-align: center;
+}
+.footer .redes{
+   	text-align: center;
+   	font-family: "Anton", sans-serif;
+   	font-size: 30px;
+   	text-transform: capitalize;
+}
+.footer .ul-footer{
+    list-style: none;
+    text-align: center;
+}
+.footer .li-footer{
+    display: inline;
+    padding-right: 10px;
+}
+.footer .fa-facebook:before{
+    color: #FFFFFF;
+}
+.footer .fa-instagram:before{
+    color: #FFFFFF;
+}
+.footer .fa-twitter-square:before{
+    color: #FFFFFF;
+}
+.footer .fa-youtube:before{
+    color: #FFFFFF;
+}
+.footer .pfooter{
+    margin: 0;
+    text-decoration: none;
+}
+.footer .pfooter .a-footer:hover{
+    text-decoration: none;
+}
+/*Footer-Redes*/
+
+.ul-tienda{
+  	background-color: #145374;
+  	list-style: none;
+}
+.ul-tienda .li-tienda{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+.ul-tienda .li-tienda .card{
+    width: 17rem;
+  }
